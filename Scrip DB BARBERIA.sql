@@ -91,55 +91,55 @@ ALTER TABLE detalle_turno ADD CONSTRAINT fk_servicio_detalle
     
 INSERT INTO  cliente ( nombre, apellido, telefono, email)
 VALUES
-('Lucía', 'Gómez', '114568910', 'lucia.gomez@example.com'),
-('Martín', 'Pérez', '1123456789', 'martin.perez@example.com'),
-('Sofía', 'Rodríguez', '1198765432', 'sofia.rodriguez@example.com'),
-('Juan', 'Fernández', '1176543210', 'juan.fernandez@example.com'),
-('Valentina', 'López', '1111223344', 'valentina.lopez@example.com'),
-('Tomás', 'Martínez', '1199887766', 'tomas.martinez@example.com'),
-('Camila', 'Díaz', '1144332211', 'camila.diaz@example.com'),
-('Mateo', 'Sánchez', '1166778899', 'mateo.sanchez@example.com'),
-('Julieta', 'Ramírez', '1155667788', 'julieta.ramirez@example.com'),
-('Agustín', 'Torres', '1133445566', 'agustin.torres@example.com');
+('Lucia', 'Gomez', '114568910', 'lucia.gomez@example.com'),
+('Martin', 'Perez', '1123456789', 'martin.perez@example.com'),
+('Sofia', 'Rodriguez', '1198765432', 'sofia.rodriguez@example.com'),
+('Juan', 'Fernandez', '1176543210', 'juan.fernandez@example.com'),
+('Valentina', 'Lopez', '1111223344', 'valentina.lopez@example.com'),
+('Tomas', 'Martinez', '1199887766', 'tomas.martinez@example.com'),
+('Camila', 'Diaz', '1144332211', 'camila.diaz@example.com'),
+('Mateo', 'Sanchez', '1166778899', 'mateo.sanchez@example.com'),
+('Julieta', 'Ramirez', '1155667788', 'julieta.ramirez@example.com'),
+('Agustin', 'Torres', '1133445566', 'agustin.torres@example.com');
 
 INSERT INTO empleado (nombre, apellido, telefono, especialidad)
 VALUES 
-('Lucas', 'Gómez', '1134567890', 'Cortes clásicos'),
-('Martina', 'Pérez', '1123456789', 'Coloración y mechas'),
-('Diego', 'Fernández', '1145678901', 'Barba y afeitado'),
-('Camila', 'Rodríguez', '1156789012', 'Cortes modernos'),
-('Julián', 'Martínez', '1167890123', 'Diseño de cejas'),
-('Valentina', 'López', '1178901234', 'Peinados y styling'),
-('Tomás', 'Sánchez', '1189012345', 'Fade y degradados'),
-('Florencia', 'Ramírez', '1190123456', 'Tratamientos capilares'),
-('Nicolás', 'Torres', '1101234567', 'Cortes infantiles'),
-('Sofía', 'Molina', '1112345678', 'Color fantasía');
+('Lucas', 'Gomez', '1134567890', 'Cortes clasicos'),
+('Martina', 'Perez', '1123456789', 'Coloracion y mechas'),
+('Diego', 'Fernandez', '1145678901', 'Barba y afeitado'),
+('Camila', 'Rodriguez', '1156789012', 'Cortes modernos'),
+('Julian', 'Martinez', '1167890123', 'Diseno de cejas'),
+('Valentina', 'Lopez', '1178901234', 'Peinados y styling'),
+('Tomas', 'Sanchez', '1189012345', 'Fade y degradados'),
+('Florencia', 'Ramirez', '1190123456', 'Tratamientos capilares'),
+('Nicolas', 'Torres', '1101234567', 'Cortes infantiles'),
+('Sofia', 'Molina', '1112345678', 'Color fantasia');
 
 INSERT INTO servicio (nombre_servicio, descripcion, precio)
 VALUES
 ('corte','corte de cabello unisex', 12000.00),
 ('coloracion', 'colocacion de tintura en cabello unisex', 35000),
-('diseño de barba', 'recorte de barba y afeitado', 8000),
-('diseño de peinado', 'creacion de peinados unisex', 20000),
+('diseno de barba', 'recorte de barba y afeitado', 8000),
+('diseno de peinado', 'creacion de peinados unisex', 20000),
 ('decoloracion de cabello', 'trabajo de decoloracion en mechas o reflejos', 45000),
-('diseño y coloracion fantasia', 'creacion de estilos unisex en colores fantasia', 40000),
-('diseño de cejas', 'creacion de diseño para cejas unisex', 8000),
+('diseno y coloracion fantasia', 'creacion de estilos unisex en colores fantasia', 40000),
+('diseno de cejas', 'creacion de diseno para cejas unisex', 8000),
 ('tratamiento nutritivo','aplicacion de nutriciones capilares unisex', 38000),
-('diseño de dibujos', 'creacion de dibujos en cabellos cortos', 18000),
+('diseno de dibujos', 'creacion de dibujos en cabellos cortos', 18000),
 ('tratamientos moleculares', 'realizacion de alisados progresivos o permanentes de rulos', 42000);
 
 INSERT INTO proveedor (nombre_empresa, contacto, telefono, email)
 VALUES
-('Distribuidora Fanatic', 'Luciana Gómez', '+1155551234', 'luciana@distribuidorafanatic.com'),
-('Billions Pro', 'Martín Ríos', '1147891122', 'ventas@billionspro.com.ar'),
-('BarberShop Argentina', 'Diego Fernández', '1148903344', 'contacto@barbershop.com.ar'),
-('Barber Line', 'Sofía Martínez', '1145678901', 'info@barberline.com.ar'),
-('Barber Market', 'Federico López', '1147802233', 'federico@barbermarket.com'),
-('Estilo Barber', 'Carla Méndez', '1147995566', 'carla@estilobarber.com'),
-('Barber Tools Pro', 'Julián Torres', '1147007788', 'julian@barbertoolspro.com'),
-('Distribuidora BarberPro', 'María Solari', '1148996655', 'msolari@barberpro.com.ar'),
-('Barber Supply Argentina', 'Gustavo Ramírez', '1147559988', 'gustavo@barbersupply.com.ar'),
-('Barber House', 'Natalia Pérez', '1148773344', 'natalia@barberhouse.com.ar');
+('Distribuidora Fanatic', 'Luciana Gomez', '1155551234', 'luciana@distribuidorafanatic.com'),
+('Billions Pro', 'Martin Rios', '1147891122', 'ventas@billionspro.com.ar'),
+('BarberShop Argentina', 'Diego Fernandez', '1148903344', 'contacto@barbershop.com.ar'),
+('Barber Line', 'Sofia Martinez', '1145678901', 'info@barberline.com.ar'),
+('Barber Market', 'Federico Lopez', '1147802233', 'federico@barbermarket.com'),
+('Estilo Barber', 'Carla Mendez', '1147995566', 'carla@estilobarber.com'),
+('Barber Tools Pro', 'Julian Torres', '1147007788', 'julian@barbertoolspro.com'),
+('Distribuidora BarberPro', 'Maria Solari', '1148996655', 'msolari@barberpro.com.ar'),
+('Barber Supply Argentina', 'Gustavo Ramirez', '1147559988', 'gustavo@barbersupply.com.ar'),
+('Barber House', 'Natalia Perez', '1148773344', 'natalia@barberhouse.com.ar');
 
 INSERT INTO turno (id_cliente, id_empleado, fecha, hora)
 VALUES
@@ -156,16 +156,16 @@ VALUES
 
 INSERT INTO producto (id_proveedor, nombre_producto, descripcion, precio_compra, stock)
 VALUES
-(1,'Máquina Wahl Magic Clip', 'Máquina de corte profesional inalámbrica con cuchillas de precisión', 450000.00, 5),
-(2,'Shampoo para barba', 'Shampoo suave con aceite de argán para limpieza profunda de la barba', 3200.00, 40),
+(1,'Maquina Wahl Magic Clip', 'Maquina de corte profesional inalambrica con cuchillas de precision', 450000.00, 5),
+(2,'Shampoo para barba', 'Shampoo suave con aceite de argan para limpieza profunda de la barba', 3200.00, 40),
 (3,'Cera para peinar', 'Cera modeladora con fijación media y aroma a menta', 2800.00, 25),
 (4,'Tijera de entresacar', 'Tijera profesional de acero inoxidable para texturizar el cabello', 7500.00, 3),
 (5,'After Shave Mentolado', 'Loción refrescante post afeitado con efecto calmante', 2100.00, 30),
-(6,'Peine de carbono', 'Peine resistente al calor ideal para cortes con máquina', 2500.00, 50),
+(6,'Peine de carbono', 'Peine resistente al calor ideal para cortes con maquina', 2500.00, 50),
 (7,'Toalla de microfibra', 'Toalla absorbente de secado rápido para uso profesional', 1800.00, 35),
 (8,'Aceite para barba', 'Aceite nutritivo con jojoba y vitamina E para suavizar la barba', 3500.00, 20),
-(9,'Delantal de barbería', 'Delantal impermeable con bolsillos múltiples y diseño vintage', 4200.00, 4),
-(10,'Spray desinfectante', 'Spray para herramientas con acción bactericida y aroma cítrico', 1600.00, 45);
+(9,'Delantal de barbería', 'Delantal impermeable con bolsillos múltiples y diseno vintage', 4200.00, 4),
+(10,'Spray desinfectante', 'Spray para herramientas con accion bactericida y aroma citrico', 1600.00, 45);
 
 INSERT INTO detalle_turno (id_cita, id_servicio, duracion)
 VALUES
